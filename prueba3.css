@@ -1,0 +1,49 @@
+html {
+    background: radial-gradient(circle,SkyBlue,SkyBlue 50%,LightCyan 50%,SkyBlue);
+    background-size: 8px 8px;
+    box-sizing: border-box;
+    background-color: gray; 
+}
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+    background-color: darkgray;
+    color: #111111;
+    font-family: 'Lobster', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    min-width: 256px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+/*Para definir mejor el elemento div vamos a utilizar ademas del tamaño de los diferentes componentes, el color para poder visualizarlo mejor*/
+
+div {
+    margin: 10px 10px 10px 10px;
+    background-color: grey;
+    border-bottom: 16px;
+    border-left: 16px solid #111111;
+    border-top: 16px;
+    border-right: 16px solid #111111;
+    padding: 32px 32px 32px 32px;
+    font-stretch: expanded;
+}
+[data-cantidad] {
+    color: grey;
+    background-color: black;
+}
+[ingrediente="nombre"] {
+    color: white;
+    background-color: black;
+}
+ul.col2 {
+    column-count: 2;
+    column-gap: 10px;
+    column-rule: 4px dotted gray;
+}
+[info] {
+    color: white;
+    background-color: black;
+}

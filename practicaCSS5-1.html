@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Practica10a</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="/home/vant/Escritorio/FullStack/CSS/prueba3.css"/>
+    </head>
+    <header>
+        <ol>
+            <li><a href="practicaCSS5.html">Home</a></li>
+            <li class="seleccionado">Preguntas y Dudas</li>
+        </ol>
+    </header>
+<body>
+        <nav>
+        <p>Tienes alguna duda o pregunta sobre nuestras recetas</p>
+        </nav>
+    <nav>
+        <form method="post" action="miservidor.php">
+    <div>
+      <p info="personal">Informacion Personal</p>  
+    </div>
+    <div>
+      <label for=”nombre”>Nombre:</label>
+      <input id=”nombre” type=”text”>
+    </div>
+    <div>
+      <label for=”ape1”>Primer apellido:</label>
+      <input id=”ape1” type=”text”>
+    </div>
+    <div>
+      <label for=”ape2”>Segundo apellido:</label>
+      <input id=”ape2” type=”text”>
+    </div>
+    <div>
+      <label for=”edad”>Edad:</label>
+      <input id=”edad” type=”number”>
+    </div>
+    <div>
+      <label for=”lugar”>Lugar de Nacimiento:</label>
+      <input id=”lugar” type=”text”>
+   </div>
+      <div>
+      <label for=”postal”>Codigo Postal:</label>
+      <input id=”postal” type=”number”>
+   </div>
+   <div>
+      <label for=”pais”>Pais de Nacimiento:</label>
+      <select id=”pais”>
+        <option value=”ES”>España</option>
+        <option value=”IT”>Italia</option>
+        <option value=”FR”>Francia</option>
+      </select>
+  </div>
+  <div>
+      <label for=”sexo”>Sexo:</label>
+      <select id="sexo">
+       <option value=”M”>Hombre</option>
+       <option value=”W”>Mujer</option>
+      </select>
+  </div>
+      <div>
+      <label for=”email”>Email:</label>
+      <input id=”email” type=”text”>
+   </div>
+  <div>
+      <label for=”satisfaccion”>Te gusto la receta? </label>
+      <select id=”satisf”>
+        <option value=”1”>1-Muy Mala</option>
+        <option value=”2”>2</option>
+        <option value=”3”>3</option>
+        <option value=”4”>4</option>
+        <option value=”5”>5-Muy Buena</option>
+      </select>
+  </div>
+  <div>
+    <label for=”comentario”>Alguna duda o pregunta?</label>
+    <textarea id=”comentario”></textarea>
+  </div>
+  <p>Ahora ya puedes enviar el formulario</p>   
+      <p>
+      <input type=”submit” value=”Enviar”>
+      </p>
+        </form>
+    </nav>
+    </body>
+</html>
+        
